@@ -40,22 +40,6 @@ The notebook leverages **XGBoost regression** to model the relationship between 
    - Uses `GridSearchCV` to optimize key XGBoost parameters:  
      - `max_depth`, `min_child_weight`, `subsample`, `colsample_bytree`, `learning_rate`, `n_estimators`  
 
-## Usage
-
-1. Place the dataset in the notebook path or update the file path.  
-2. Run the notebook cells sequentially:  
-   - Library imports  
-   - Data loading and splitting  
-   - Model training and evaluation  
-   - Cross-validation and hyperparameter tuning  
-3. Review the printed outputs for metrics and best hyperparameters.  
-
-## Key Libraries
-
-- `numpy` – numerical computations  
-- `pandas` – data manipulation  
-- `xgboost` – gradient boosting regression  
-- `scikit-learn` – model evaluation, cross-validation, and hyperparameter tuning  
 
 ## Results
 
